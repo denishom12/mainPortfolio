@@ -1,0 +1,29 @@
+<template>
+  <div>
+    <kinesis-container event="scroll">
+      <kinesis-element
+          :strength="15"
+          transformOrigin="0.5"
+          :maxX ="0.5"
+          axis = "x"
+          type="depth">
+        <img src="../assets/site.png" alt="">
+      </kinesis-element>
+    </kinesis-container>
+  </div>
+</template>
+
+<script>
+import { KinesisContainer, KinesisElement} from "vue-kinesis"
+export default {
+  name: "thirdSite",
+  components:{KinesisContainer, KinesisElement},
+  mounted() {
+
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
