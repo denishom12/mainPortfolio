@@ -50,13 +50,13 @@ body{
   height: 100vh;
 }
 .home__sites{
-  height:200vh;
+  height:250vh;
 }
 .home__footer{
   height: 100vh;
 }
 .home__mail{
-  height: 120vh;
+  height: 100vh;
 }
 
 .home__people{

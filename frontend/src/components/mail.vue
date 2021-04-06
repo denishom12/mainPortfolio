@@ -39,7 +39,7 @@ export default {
 <style scoped>
 .mail{
   background-color: black;
-  height: 120vh;
+  height: 100vh;
 }
 #contact {
   display: flex;
@@ -64,6 +64,7 @@ export default {
 .title{
   font-size: 3em;
   color: white;
+  font-family: "PT Mono";
 }
 
 .subtitle{
@@ -91,11 +92,13 @@ export default {
   background: transparent;
   color: white;
   font-size: 1.8rem;
+  font-family: "PT Mono";
 }
 
 .contactForm textarea {
   resize: none;
   border-bottom: 2px solid white;
+  font-family: "PT Mono";
 }
 
 .contactForm input{
@@ -108,7 +111,7 @@ export default {
 
 .contactForm button{
   padding: 1rem;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: "PT Mono";
   height: 40%;
   margin-top: 30px;
   background-color: #f300b4;
@@ -122,12 +125,13 @@ export default {
   color: white;
   font-size: 1.8rem;
   box-shadow: none;
+  font-family: "PT Mono";
   outline: none;
 }
 
 .contactForm textarea{
   padding: 1rem;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: "PT Mono";
   width: 100%;
   height: 40%;
   overflow: auto;

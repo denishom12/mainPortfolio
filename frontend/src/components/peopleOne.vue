@@ -86,6 +86,7 @@ export default {
   text-align: left;
   margin-left: 30%;
   margin-top: 8%;
+  font-family: "PT Mono";
 }
 .people__text{
   margin-top: -10%;

@@ -97,7 +97,7 @@
 
 
 .footer{
-  height: 100vh;
+  height: 110vh;
   background-color: black;
 }
 .footer__pes{
@@ -110,11 +110,12 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  width: 56em;
+  width: 60em;
   margin-top: 1%;
 }
 .footer__name h1{
   font-size: 6.8em;
+  font-family: "PT Mono";
   color: white;
   margin-top: 20%;
 }
@@ -129,11 +130,14 @@
   margin-top: 7%;
 }
 .footer__contain{
-  margin-right: -13em;
+  margin-right: -10em;
+}
+.footer__contain h1, p{
+  font-family: "PT Mono";
 }
 .footer__group{
   color: white;
-  margin-right: 13em;
+  margin-right: 10em;
 }
 .footer__linker{
   display: flex;
@@ -156,7 +160,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10%;
-
+  margin-right: -7em;
 }
 .footer__copyright *{
   text-decoration: none;
@@ -164,20 +168,24 @@
 .copyright__text{
   color: white;
   font-size: 1em;
+  font-family: "PT Mono";
+  margin-right: 5em;
 }
 .copyright__text1{
   color: white;
   font-size: 1em;
+  margin-right: 5em;
+  font-family: "PT Mono";
 }
 @media (max-width: 1500px) {
   .footer__name h1{
     margin-top: 0%;
-    font-size: 7em;
+    font-size: 5em;
   }
 }
 @media (max-width: 900px) {
   .footer__name h1{
-    font-size: 4em;
+    font-size: 3em;
   }
   .footer__logo{
     width: 32em;
@@ -196,7 +204,7 @@
 }
 @media (max-width: 858px) {
   .footer__name h1{
-    font-size: 4em;
+    font-size: 3em;
   }
   .footer__logo{
     width: 32em;
@@ -211,7 +219,7 @@
 }
 @media (max-width: 634px) {
   .footer__name h1{
-    font-size: 4em;
+    font-size: 3em;
   }
   .footer__logo{
     width: 32em;
@@ -225,7 +233,7 @@
 }
 @media (max-width: 508px) {
   .footer__name h1{
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .footer__logo{
     width: 28em;
@@ -240,7 +248,7 @@
 
 @media (max-width: 450px) {
   .footer__name h1{
-    font-size: 3em;
+    font-size: 2em;
   }
   .footer__logo{
     width: 25em;
@@ -254,7 +262,7 @@
 }
 @media (max-width: 405px) {
   .footer__name h1{
-    font-size: 2.6em;
+    font-size: 1.6em;
   }
   .footer__logo{
     width: 22em;
@@ -268,7 +276,7 @@
 }
 @media (max-width: 384px) {
   .footer__name h1{
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   .footer__logo{
     width: 20em;

@@ -36,6 +36,7 @@ a {
 
 ul, li {
   list-style: none;
+  font-family: BurfordBase;
 }
 .first-block {
   background-color: #000;
@@ -77,7 +78,7 @@ ul, li {
   font-size: 25px;
 
   margin-right: 20px;
-
+  font-family: "PT Mono";
   position: relative;
 
 }
