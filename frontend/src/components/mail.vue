@@ -37,8 +37,9 @@ export default {
 </script>
 
 <style scoped>
+
 .mail{
-  background-color: black;
+  background-color: #f300b4;
   height: 100vh;
 }
 #contact {
@@ -63,7 +64,7 @@ export default {
 
 .title{
   font-size: 3em;
-  color: white;
+  color: black;
   font-family: "PT Mono";
 }
 
@@ -73,7 +74,7 @@ export default {
 }
 
 .line{
-  background: #f300b4;
+  background: black;
   width: 200px;
   height: 3px;
   margin: 1rem 0;
@@ -114,15 +115,20 @@ export default {
   font-family: "PT Mono";
   height: 40%;
   margin-top: 30px;
-  background-color: #f300b4;
+  color: white;
+  background-color: black;
   align-self: flex-end;
   font-size: 25px;
 }
+.contactForm button:hover{
+  color: Black;
+  background-color: White;
+}
 
 .cont form input[type="text"]:hover,input[type="email"]:hover, textarea:hover{
-  border-bottom: 3px solid #f300b4;
+  border-bottom: 3px solid black;
   background: transparent;
-  color: white;
+  color: black;
   font-size: 1.8rem;
   box-shadow: none;
   font-family: "PT Mono";
@@ -152,17 +158,17 @@ input[type="submit"]{
 @media (max-width: 804px) {
   .title{
     font-size: 2.8em;
-    color: white;
+
   }
   .contactForm input[type="text"],input[type="email"], textarea{
     font-size: 1.5rem;
   }
   .contactForm button{
     padding: 1rem;
-    font-family: 'Overlock', Arial, Helvetica, sans-serif;
+
     height: 2%;
     margin-top: 30px;
-    background-color: #f300b4;
+
     align-self: flex-end;
     font-size: 16px;
   }
@@ -170,7 +176,7 @@ input[type="submit"]{
 @media (max-width: 750px) {
   .title{
     font-size: 2.6em;
-    color: white;
+
   }
   .contactForm input[type="text"],input[type="email"], textarea{
     font-size: 1.4rem;
@@ -180,7 +186,7 @@ input[type="submit"]{
 @media (max-width: 700px) {
   .title{
     font-size: 2.2em;
-    color: white;
+
   }
   .contactForm input[type="text"],input[type="email"], textarea{
     font-size: 1.2rem;
@@ -189,7 +195,7 @@ input[type="submit"]{
 @media (max-width: 592px) {
   .title{
     font-size: 2em;
-    color: white;
+
   }
   .contactForm input[type="text"],input[type="email"], textarea{
     font-size: 1rem;
@@ -199,13 +205,13 @@ input[type="submit"]{
 @media (max-width: 538px) {
   .title{
     font-size: 1.8em;
-    color: white;
+
   }
 }
 @media (max-width: 486px) {
   .title{
     font-size: 1.3em;
-    color: white;
+
   }
   .contactForm button{
     align-self: center;
@@ -213,8 +219,8 @@ input[type="submit"]{
 }
 @media (max-width: 354px) {
   .title{
-    font-size: 1em;
-    color: white;
+    font-size: 1.3em;
+
   }
 }
 input::-moz-placeholder { color: white; }

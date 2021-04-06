@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <div class="footer">
       <div class="footer__pes">
+        <img class="blop__image" src="../assets/blop5.svg" alt="">
         <div class="footer__name">
           <h1>Purple eye studio</h1>
         </div>
@@ -56,7 +57,14 @@
 </template>
 
 <style>
-
+.blop__image{
+  margin-top: -0.25%;
+}
+@media (max-width: 1820px){
+  .blop__image{
+    visibility: hidden;
+  }
+}
 
 .footer__group p {
   white-space: nowrap;
@@ -94,10 +102,8 @@
   }
 }
 
-
-
 .footer{
-  height: 110vh;
+  height: 100vh;
   background-color: black;
 }
 .footer__pes{
@@ -108,16 +114,17 @@
 }
 .footer__logo{
   display: flex;
+  margin-top: -7%;
   position: relative;
   justify-content: space-around;
   width: 60em;
-  margin-top: 1%;
+
 }
 .footer__name h1{
   font-size: 6.8em;
   font-family: "PT Mono";
   color: white;
-  margin-top: 20%;
+  margin-top: -32%;
 }
 .footer__image{
   width: 50%;
@@ -130,14 +137,14 @@
   margin-top: 7%;
 }
 .footer__contain{
-  margin-right: -10em;
+  margin-left: 8em;
 }
 .footer__contain h1, p{
   font-family: "PT Mono";
 }
 .footer__group{
   color: white;
-  margin-right: 10em;
+  margin-right: 8em;
 }
 .footer__linker{
   display: flex;
@@ -160,7 +167,6 @@
   display: flex;
   justify-content: center;
   margin-top: 10%;
-  margin-right: -7em;
 }
 .footer__copyright *{
   text-decoration: none;
@@ -169,13 +175,23 @@
   color: white;
   font-size: 1em;
   font-family: "PT Mono";
-  margin-right: 5em;
+  margin-right: 8em;
+  margin-left: 10em;
 }
 .copyright__text1{
   color: white;
   font-size: 1em;
-  margin-right: 5em;
+  margin-right: 8em;
   font-family: "PT Mono";
+}
+@media (max-width: 1600px) {
+  .footer__logo{
+    margin-top: auto;
+  }
+  .footer__name h1{
+    margin-top: auto;
+  }
+
 }
 @media (max-width: 1500px) {
   .footer__name h1{
@@ -192,9 +208,12 @@
   }
   .copyright__text{
     font-size: 1em;
+    margin-right: 3em;
+    margin-left: 4em;
   }
   .copyright__text1{
     font-size: 1em;
+    margin-right: 4em;
   }
   .footer__contain{
     flex-direction: column;
@@ -225,10 +244,16 @@
     width: 32em;
   }
   .copyright__text{
-    font-size: 1em;
+    font-size: 0.4em;
+    margin-right: 0em;
+    margin-left: 0em;
   }
   .copyright__text1{
-    font-size: 1em;
+    font-size: 0.4em;
+    margin-right: 0em;
+  }
+  .footer__contain h1, p{
+    font-size: 1.5em;
   }
 }
 @media (max-width: 508px) {
@@ -272,6 +297,9 @@
   }
   .copyright__text1{
     font-size: 0.65em;
+  }
+  .footer__contain h1, p{
+    font-size: 1em;
   }
 }
 @media (max-width: 384px) {

@@ -3,15 +3,14 @@
     <div class="home__main">
       <MainPanel></MainPanel>
     </div>
-    <div class="home__sites">
-      <SitePanel></SitePanel>
-    </div>
+
     <div class="home__people">
       <PeopleOneTwo></PeopleOneTwo>
     </div>
     <div class="home__mail">
       <Mail></Mail>
     </div>
+
     <div class="home__footer">
       <Footer></Footer>
     </div>
@@ -23,14 +22,13 @@
 import Footer from "@/components/footer";
 import Mail from "@/components/mail";
 import PeopleOneTwo from "@/components/peopleOneTwo";
-import SitePanel from "@/components/sitePanel";
+
 import MainPanel from "@/components/mainPanel";
 
 export default {
   name: 'Home',
   components: {
     MainPanel,
-    SitePanel,
     PeopleOneTwo,
     Footer,
     Mail,
@@ -49,9 +47,7 @@ body{
 .home__main{
   height: 100vh;
 }
-.home__sites{
-  height:250vh;
-}
+
 .home__footer{
   height: 100vh;
 }
