@@ -86,7 +86,7 @@ ul, li {
 .purple__menu-link a {
   white-space: nowrap;
   display: block;
-  color: #CE33EB;
+  color: #f300b4;
   padding: 10px 0 10px 0;
   position: relative;
 
@@ -105,7 +105,7 @@ ul, li {
   bottom: 0;
   height: 3px;
   width: 100%;
-  background: #CE33EB;
+  background: #f300b4;
   z-index: 1;
   animation: .2s linear line;
 }

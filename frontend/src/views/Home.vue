@@ -4,6 +4,11 @@
       <MainPanel></MainPanel>
     </div>
 
+<!--    <div class="home__sites">-->
+<!--      <SitePanel></SitePanel>-->
+<!--    </div>-->
+
+
     <div class="home__people">
       <PeopleOneTwo></PeopleOneTwo>
     </div>
@@ -24,10 +29,12 @@ import Mail from "@/components/mail";
 import PeopleOneTwo from "@/components/peopleOneTwo";
 
 import MainPanel from "@/components/mainPanel";
+// import SitePanel from "@/components/sitePanel";
 
 export default {
   name: 'Home',
   components: {
+    // SitePanel,
     MainPanel,
     PeopleOneTwo,
     Footer,
@@ -54,8 +61,27 @@ body{
 .home__mail{
   height: 100vh;
 }
-
-.home__people{
+.home__sites{
   height: 100vh;
 }
+
+.home__people{
+  height: 160vh;
+}
+@media (max-width: 900px) {
+  .home__people{
+    height: 135vh;
+  }
+}
+@media (max-width: 300px) {
+  .home__people{
+    height: 10vh;
+  }
+}
+@media (max-width: 600px) {
+  .home__people{
+    height: 115vh;
+  }
+}
+
 </style>

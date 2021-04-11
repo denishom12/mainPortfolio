@@ -7,6 +7,7 @@
     <div class="people__two">
       <PeopleTwo></PeopleTwo>
     </div>
+
   </div>
 </div>
 </template>
@@ -21,7 +22,6 @@ export default {
 </script>
 
 <style>
-
 .onetwoPeople{
   display: flex;
   flex-direction: row;
@@ -55,13 +55,13 @@ export default {
 }
 @media (max-width: 600px) {
   .people__one{
-    margin-top: -25%;
+    margin-top: -15%;
   }
   .people__two{
-    margin-top: 25%;
+    margin-top: 15%;
   }
   .onetwoPeople{
-    margin-top: -30%;
+    margin-top: -20%;
   }
 }
 

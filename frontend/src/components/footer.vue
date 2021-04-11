@@ -103,7 +103,6 @@
 }
 
 .footer{
-  height: 100vh;
   background-color: black;
 }
 .footer__pes{
@@ -191,7 +190,15 @@
   .footer__name h1{
     margin-top: auto;
   }
-
+  .copyright__text{
+    font-size: 1em;
+    margin-right: 3em;
+    margin-left: 4em;
+  }
+  .copyright__text1{
+    font-size: 1em;
+    margin-right: 4em;
+  }
 }
 @media (max-width: 1500px) {
   .footer__name h1{

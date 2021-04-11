@@ -319,5 +319,5 @@ export default {
 </script>
 
 <style scoped>
-.st6{fill:#CE33EB;}
+.st6{fill:#f300b4;}
 </style>

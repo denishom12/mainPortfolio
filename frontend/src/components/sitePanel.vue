@@ -1,5 +1,6 @@
 <template>
 <div class="site__panel">
+  <img class="blop__image__sites" src="../assets/blop10.svg" alt="">
  <div class="site__contain">
    <div class="site__contain1">
      <div>
@@ -48,19 +49,16 @@ name: "sitePanel",
 </script>
 
 <style>
+.blop__image__sites{
+  margin-top: -0.25%;
+}
 .image__one{
   transform: scale(0.3);
 }
-.site__contain{
-  display: flex;
-  flex-direction: column;
-  position: relative;
+.site__panel{
+  background-color: #f300b4;
+  height: 330vh;
 }
-.site__contain1{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
 
 </style>

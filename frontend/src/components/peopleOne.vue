@@ -8,12 +8,13 @@
         <h1 class="letter">А</h1>
         <h1 class="letter">Л</h1>
         <h1 class="letter">Е</h1>
-        <h1 class="letter">Ш</h1>
         <h1 class="letter">К</h1>
-        <h1 class="letter">А</h1>
+        <h1 class="letter">С</h1>
+        <h1 class="letter">Е</h1>
+        <h1 class="letter">Й</h1>
       </div>
       <div>
-        <p id= "frase" class="people__textP">Много текста о тебе и блаблабла,вот так вот, крутое ноухау получается, шо я ебу алибабу</p>
+        <p id= "frase" class="people__textP">Front и Back разработка, адаптивная верстка</p>
       </div>
     </div>
   </div>
@@ -67,7 +68,7 @@ export default {
 }
 .letter{
   font-family: Impact;
-  color: #bec2ea;
+  color: black;
   font-size: 95px;
 }
 .people__imagetext{
@@ -81,7 +82,7 @@ export default {
   justify-content: center;
 }
 .people__textP{
-  color: #bec2ea;
+  color: black;
   font-size: 25px;
   text-align: left;
   margin-left: 30%;

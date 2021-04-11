@@ -10,11 +10,9 @@
         <h1 class="letterTwo">Н</h1>
         <h1 class="letterTwo">И</h1>
         <h1 class="letterTwo">С</h1>
-        <h1 class="letterTwo">К</h1>
-        <h1 class="letterTwo">А</h1>
       </div>
       <div>
-        <p id= "fraseTwo" class="people__textPTwo">Много текста о тебе и блаблабла,вот так вот, крутое ноухау получается, шо я ебу алибабу</p>
+        <p id= "fraseTwo" class="people__textPTwo">Дизайн, анимация и все, что связано с оберткой вашего сайта</p>
       </div>
     </div>
   </div>
@@ -70,7 +68,7 @@ export default {
 }
 .letterTwo{
   font-family: Impact;
-  color: #bec2ea;
+  color: black;
   font-size: 95px;
 }
 .people__imagetextTwo{
@@ -85,7 +83,7 @@ export default {
 }
 
 .people__textPTwo{
-  color: #bec2ea;
+  color: black;
   font-size: 25px;
   text-align: left;
   margin-left: 30%;

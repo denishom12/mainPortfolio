@@ -40,7 +40,7 @@ export default {
 
 .mail{
   background-color: #f300b4;
-  height: 100vh;
+
 }
 #contact {
   display: flex;
@@ -48,6 +48,7 @@ export default {
   justify-content: center;
   width: 100%;
   height: 100vh;
+  margin-top: -25%;
 }
 
 .container__feed-back {
@@ -105,7 +106,7 @@ export default {
 .contactForm input{
   border: none;
   padding: 1rem;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: "PT Mono";
   width: 100%;
   height: 40%;
 }
@@ -149,8 +150,6 @@ export default {
 input[type="submit"]{
   background: #f300b4;
   color: white;
-
-  width: auto;
   float: right;
 }
 
